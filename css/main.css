@@ -1,0 +1,73 @@
+/* ////////main//////// */
+body, html{
+    height: 100%;
+    margin: 0;
+  }
+
+.light {
+    background-image: url("/img/day.jpeg");
+    height: 100%;
+    margin: 0px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark {
+    background-image: url("/img/night.jpg");
+    height: 100%;
+    margin: 0px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ////////main//////// */
+.theHead{
+    color: #007bff;
+    
+}
+
+/* ////////cards//////// */
+.display{
+    display: block;
+}
+.card{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: #444;
+}
+
+.cardHide{
+    display: none;
+}
+
+.btn {
+    padding: 3px;
+}
+
+.none {
+    display: none;
+}
+
+.delBtn{
+    margin-bottom: 15px;
+}
+
+/* ////////cards//////// */
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 30px;
+    padding: 10px;
+    color: #17a2b8;
+}
+
+li:hover{
+    cursor: pointer;
+}
